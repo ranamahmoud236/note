@@ -1,0 +1,31 @@
+#note{
+    position: absolute;
+    cursor:default;
+    height: 200px;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+.gray , .pink , .green , .cyan {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: auto 0 auto 0;
+    border: 0.5px lightgray; ;
+}
+.gray{
+    background-color: #f1f1f1;
+}
+.pink{
+    background-color: #e493c9;
+}
+.green{
+    background-color: #4bec9c;
+}
+.cyan{
+    background-color: #75d3ff;
+}
+footer{
+    position: relative;
+}
+
+  
