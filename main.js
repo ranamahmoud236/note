@@ -54,7 +54,7 @@ class notes {
     localStorage.setItem('notes', JSON.stringify(this.notes));
   }
 }
-let notes = new notes();
+let Note = new notes();
 function addNotes() {
   let note = document.getElementById("note").value;
 
