@@ -61,3 +61,23 @@ function addNotes() {
   let newNote = new note(note, new Date().toTimeString());
   notes.addNote(newNote);
 }
+
+
+
+function changeColor(color) { 
+  document.getElementById('note').style.backgroundColor= color; 
+} 
+
+function toGray() { 
+  changeColor('#DDDDDD'); 
+} 
+function toPink() { 
+  changeColor('#F7B2C9'); 
+} 
+function toGreen() { 
+  changeColor('#B8F8BA'); 
+} 
+function toCyan() { 
+  changeColor('#B2DDF6'); 
+} 
+
