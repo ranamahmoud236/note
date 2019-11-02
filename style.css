@@ -24,6 +24,20 @@
 .cyan{
     background-color: #B2DDF6;
 }
+.close {
+   border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: auto 0 auto 0;
+    background-color: rgb(224, 62, 62); 
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;  
+    color :white;  
+}
 footer{
     position: relative;
 }

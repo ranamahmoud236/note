@@ -81,3 +81,7 @@ function toCyan() {
   changeColor('#B2DDF6'); 
 } 
 
+function hide(note) {
+  document.getElementById(note).style.display = 'none';
+}
+  
