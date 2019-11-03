@@ -1,10 +1,13 @@
-#note{
+* {
+    box-sizing: border-box;
+  }
+/*#note{
     position: absolute;
     cursor:default;
     height: 200px;
     width: 200px;
     background-color: #f1f1f1;
-}
+}*/
 .gray , .pink , .green , .cyan {
     border-radius: 50%;
     width: 20px;
@@ -38,8 +41,25 @@
     font-size: 22px;  
     color :white;  
 }
-footer{
+.note-footer{
     position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.sticker{
+    min-height: 100px;
+    min-width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.sticker textarea {
+    padding: 3px 10px;
+    box-sizing: border-box;
+    min-height: 100px;
+    min-width: 100px;
+    
+
 }
 
   
